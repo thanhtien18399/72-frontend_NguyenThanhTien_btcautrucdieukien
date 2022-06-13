@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- bài 1,4,7 -->
+    <div>
+        <h1>Bài 1:vui lòng nhập vào 3 số nguyên</h1>
+        <span>
+            A
+            <input type="text" id="txta">
+        </span>
+        <span>
+            B
+            <input type="text" id="txtb">
+        </span>
+        <span>
+            C
+            <input type="text" id="txtc">
+        </span>
+        <button onclick="scoreHigh()">xem KQ</button>
+
+        <h1>Bài 4:Kiểm tra có bao nhiêu số chẵn số lẻ <br> "vui lòng nhập a ,b c, trên bài 1 "</h1>
+        <button onclick="checkEvenOdd()"> Xem KQ </button>
+
+        <h1>Bài 7: Hãy cho tất cả các số âm bằng giá trị tuyệt đối</h1>
+        <button onclick="checkRealNumber()">Xem KQ</button>
+    </div>
+
+    <!-- bài 3 -->
+    <div>
+        <h1>Bài 3:Vui lòng chọn người đang dùng máy:</h1>
+        <ul>
+            <li class="type">
+                <input id="father" type="radio" name="selector">
+                <label for="father">Father</label>
+            </li>
+
+            <li class="type">
+                <input id="mother" type="radio" name="selector">
+                <label for="mother">Mother</label>
+            </li>
+
+            <li class="type">
+                <input id="son" type="radio" name="selector">
+                <label for="son">Son</label>
+            </li>
+            <li class="type">
+                <input id="daughter" type="radio" name="selector">
+                <label for="daughter">Daughter</label>
+            </li>
+        </ul>
+        <button onclick="helloFamily()">Xem KQ</button>
+    </div>
+
+    <!-- bài 5 -->
+    <div>
+        <h1>Bài 5:vui lòng nhập tháng & năm</h1>
+        <span>
+            Tháng:
+            <input type="text" id="txtmonth">
+        </span>
+        <span>
+            Năm:
+            <input type="text" id="txtyear">
+        </span>
+        <button onclick="checkMonthYear()">Xem KQ</button>
+    </div>
+
+    <!-- bài 8: -->
+    <div>
+        <h1>Bài 8: nhập vào 3 chữ số :</h1>
+        <span>
+            nhập vào 3 chữ số :
+            <input type="text" id="txtnumber">
+        </span>
+        <button onclick="inRead()">Xem KQ</button>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
